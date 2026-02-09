@@ -33,6 +33,13 @@ A C++ implementation of the Laplacian edge detection filter compiled as a shared
    → C++ Filter via ctypes → Filtered NumPy Array → Matplotlib Display
    ```
 
+## Requirements
+
+- Python 3.6+
+- NumPy
+- Pillow
+- Matplotlib
+
 ## Usage
 
 ```python
@@ -51,9 +58,4 @@ show('image-ex.jpg')
 g++ -shared -fPIC -o liblaplacian.dylib laplacian.cpp -std=c++11
 ```
 
-## Requirements
 
-- Python 3.6+
-- NumPy
-- Pillow
-- Matplotlib
