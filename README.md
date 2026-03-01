@@ -1,7 +1,7 @@
 # Laplacian Filter with Python Wrapper
 <img width="943" height="857" alt="Screenshot 2026-02-02 at 01 03 01" src="https://github.com/user-attachments/assets/8db3e740-368a-4723-9b8f-655fe101e6eb" />
 
-A C++ implementation of the Laplacian edge detection filter compiled as a shared library and wrapped with Python ctypes for easy integration.
+A C++ implementation of the edge detection filter compiled as a shared library and wrapped with Python ctypes for easy integration.
 
 ## Project Structure
 
